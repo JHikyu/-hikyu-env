@@ -21,8 +21,10 @@ anyNumber=1
 All Variables are stored in the global.env object. Use it like so:
 ```js
 console.log(global.env.text)
-
 // Output: My Variable Text
+
+console.log(env.anyNumber)
+// Output: 1
 ```
 
 # License

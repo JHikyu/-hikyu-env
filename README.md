@@ -1,12 +1,12 @@
-To install @jhikyu/env, run the following command:
+To install @hikyu/env, run the following command:
 ```bash
-npm install @jhikyu/env
+npm install @hikyu/env
 ```
 
 To use the package, require it in your project like so:
 ```js
-require('@jhikyu/env')(); // Path default to ./.env
-require('@jhikyu/env')('./.myEnv'); // File path is optional
+require('@hikyu/env')(); // Path default to ./.env
+require('@hikyu/env')('./.myEnv'); // File path is optional
 ```
 
 # Usage
