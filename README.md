@@ -18,13 +18,19 @@ anyNumber=1
 ```
 
 ## Getting variables
-All Variables are stored in the global.env object. Use it like so:
+Using global.env
 ```js
 console.log(global.env.text)
 // Output: My Variable Text
 
-console.log(env.anyNumber)
+console.log(env.anyNumber) // global is not needed (use only if no other env variable exists)
 // Output: 1
+```
+
+Using proces.env
+```js
+console.log(process.env.text)
+// Output: My Variable Text
 ```
 
 # License

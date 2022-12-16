@@ -29,6 +29,7 @@ module.exports = (filePath) => {
     if(isJSON(value)) value = JSON.parse(value);
 
     global.env[name] = value;
+    process.env[name] = value;
   })
 }
 
